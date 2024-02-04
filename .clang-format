@@ -73,9 +73,9 @@ InsertNewlineAtEOF: true
 InsertBraces: true
 InsertTrailingCommas: Wrapped
 IntegerLiteralSeparator:
-  Binary: 4
-  Decimal: 3
-  Hex: 4
+  Binary: 0
+  Decimal: 0
+  Hex: 0
 JavaScriptQuotes: Leave
 JavaScriptWrapImports: true
 KeepEmptyLinesAtTheStartOfBlocks: true
