@@ -1,7 +1,7 @@
 # Makefile adapted from 
 # https://stackoverflow.com/questions/30573481/how-to-write-a-makefile-with-separate-source-and-header-directories
 
-CPPFLAGS := -MMD -MP -Ilib/raylib/src -Ilib/raylib-cpp/include
+CPPFLAGS := -MMD -MP -isystemlib/raylib/src -isystemlib/raylib-cpp/include
 CXXFLAGS := -O3 -Wall -Wextra -std=c++17
 LDFLAGS := -Llib/raylib/src
 LDLIBS := -lraylib -lGdi32 -lWinMM
