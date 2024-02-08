@@ -12,6 +12,6 @@ NOTE: the library flags set in the included `Makefile` are set for Windows, and 
 
 ## Credits
 
-[raylib](https://github.com/raysan5/raylib)
+[raylib](https://github.com/raysan5/raylib) - @raysan
 
-[raylib-cpp](https://github.com/RobLoach/raylib-cpp)
+[raylib-cpp](https://github.com/RobLoach/raylib-cpp) - @RobLoach
