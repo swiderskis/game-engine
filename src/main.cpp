@@ -1,8 +1,9 @@
-#include <raylib-cpp.hpp>
+#include "Text.hpp"
+#include "Window.hpp"
 
 constexpr auto WINDOW_TITLE = "Game Title";
 constexpr int WINDOW_WIDTH = 800;
-constexpr int WINDOW_HEIGHT = 480;
+constexpr int WINDOW_HEIGHT = 450;
 constexpr int TARGET_FPS = 60;
 
 int main()
@@ -11,10 +12,10 @@ int main()
     window.SetTargetFPS(TARGET_FPS);
 
     while (!window.ShouldClose()) {
-        BeginDrawing();
-        ClearBackground(DARKBLUE);
+        window.BeginDrawing();
+        window.ClearBackground(DARKBLUE);
         RText::Draw("Congrats! You created your first window!", 190, 200, 20, BLACK);
-        EndDrawing();
+        window.EndDrawing();
     }
 
     return 0;
