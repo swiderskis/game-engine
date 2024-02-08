@@ -1,1 +1,1 @@
-A copy of [raylib-cpp](https://github.com/RobLoach/raylib-cpp) repo source files & license.
+A copy of [raylib](https://github.com/raysan5/raylib) repo source files & license.
